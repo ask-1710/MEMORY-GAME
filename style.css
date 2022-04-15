@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+}
+img { 
+    display: flex;
+    width: 150px ;
+    height: 150px ;
+    border-radius: 5%;
+    padding: auto ;  
+    margin: auto;
+    border: 2px solid black ;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
+.row {
+    display: flex ;
+    padding: 5px ;
+    margin: 50px ;
+    border: 1px solid black ;
+}
+.column {
+    display: flex ;
+    padding: 5px;
+    margin: auto ;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin: 15px;
+} 
+
+#circle{
+    display: flex;
+    float:left;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 10px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px ;
+    color:black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 187, 0);
+}
+#anotherCircle1{
+    display: flex;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 10px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px ;
+    color:black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(30, 255, 0);
+}
+#anotherCircle2{
+    display: flex;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 10px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px ;
+    color:black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+#anotherCircle3{
+    display: flex;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 10px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px ;
+    color:black;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(0, 47, 255);
+}
+.gambling-board {
+    display: block;
+    margin : auto;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    padding: auto;
+    border: dashed goldenrod 15px ;
+    border-radius: 5%;
+    background-color: black;
+}
+.timer{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    background-color: wheat;
+    color: black;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+}
+#level1:hover {
+    font-size: larger ;
+}
+#level2:hover {
+    font-size: larger ;
+}
+#level4:hover {
+    font-size: larger ;
+}
+#level3:hover {
+    font-size: larger ;
+}
+#level{
+    color:orange;
+}

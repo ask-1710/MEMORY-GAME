@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memory Game</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="body">
+        <div id="timer" class="timer" style="display: none;"><span id="minutes"></span>:<span id="seconds"></span></div>
+        
+        <div id="row1" class="row" style="border:0px;">
+            <div id="circle" style="width:50%;float:left;margin-right: 100px;"><span id="level1" style="margin:auto;" onclick="startGame(1)">LEVEL 1</span></div>
+            <div id="anotherCircle1" style="width:50%;float:right;margin-left: 100px;"><span id="level2" style="margin:auto;" onclick="startGame(2)">LEVEL 2</span></div>
+        </div>
+        <button style="text-align:center;color:black;display: flex;margin: auto; font-size: 50px;font-family: 'Courier New', Courier, monospace;" id="startPlaying"  onclick="startGame(0)">PICK A RANDOM LEVEL</button>
+        <div id="row2" class="row" style="border:0px">
+            <div id="anotherCircle2" style="width:50%;float:left;margin-right: 100px;"><span id="level3" style="margin:auto;" onclick="startGame(3)">LEVEL 3</span></div>
+            <div id="anotherCircle3" style="width:50%;float:right;margin-left: 100px;"><span id="level4" style="margin:auto;" onclick="startGame(4)">LEVEL 4</span></div>
+        </div>
+
+        <section>
+            <h1 id="levelHeading" style="display:none;color:orange;font-family:'Courier New', Courier, monospace;">LEVEL <span id="level"></span> </h1>
+        </section>
+        <section>
+            <div id="gambling-board" class="gambling-board" style="display: none;">
+                <div id="grid" class="grid"></div>
+            </div>
+        </section>
+        
+    </body>
+
+</html>
